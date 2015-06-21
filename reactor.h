@@ -20,7 +20,7 @@ namespace reactor
 		void HandleEvents(int timeout = 0);
 
 	private:
-		// ½ûÖ¹copy
+		// forbit to copy
 		Reactor(const Reactor &);
 		Reactor & operator=(const Reactor &);
 
