@@ -6,7 +6,8 @@ namespace reactor
 {
 
 	Reactor::Reactor()
-	{
+	{	
+		// 分配具体的实现类
 		m_reactor_impl = new ReactorImplementation();
 	}
 
